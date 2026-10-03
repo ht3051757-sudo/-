@@ -1,8 +1,7 @@
 {
   "name": "ugphone-mod-server",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "engines": { "node": ">=18.18.0" },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -12,5 +11,8 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
     "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
